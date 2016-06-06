@@ -1,4 +1,4 @@
-Getting and Cleaning Data Course Project
+##Getting and Cleaning Data Course Project
 
 The purpose of these scripts is to do the following:
 
