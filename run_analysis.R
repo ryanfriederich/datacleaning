@@ -35,6 +35,7 @@ F <- grep("Freq",names(cmb2))
 cmb3 <- cmb2[, -(F)]
 
 ## 3. Use descriptive activity names
+library(plyr)
 cmb4 <- join(cmb3, activities)
 cmb4 <- cmb4[,c(1,69,3:68)]
 
